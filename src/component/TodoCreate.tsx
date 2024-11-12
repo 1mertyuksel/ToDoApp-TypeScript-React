@@ -1,7 +1,7 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { createTodo } from '../redux/todoSlice';
-import {TodoInitialState, TodoType} from '../types/Types';
+import { TodoType} from '../types/Types';
 import { useState } from 'react';
 
 
