@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import {TodoInitialState} from '../types/Types'
-
+import { TodoInitialState } from '../types/Types'
+import { TodoType } from '../types/Types'
 
 const initialState :TodoInitialState={
 todos:[]
